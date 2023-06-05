@@ -16,9 +16,7 @@ Parte 1b:
 - Stringhe, Liste
 - Tuple, Insiemi, Dizionari
 
-- [Scarica notebook](https://davidleoni.github.io/ggad/parte1b.ipynb)
-- [Visualizza notebook su Github](parte1b.ipynb)
-- [Slides](https://davidleoni.github.io/ggad/parte1b.slides.html)
+| [Slides](https://davidleoni.github.io/ggad/parte1b.slides.html) | [Scarica notebook](https://davidleoni.github.io/ggad/parte1b.ipynb) | [Visualizza notebook su Github](parte1b.ipynb) | 
 
 Parte 1c:
 
