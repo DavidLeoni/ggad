@@ -1,29 +1,29 @@
-# 
+# IN PROGRESS
 
+## 1.a intro
 
-Parte 1a: 
+| [Slides](https://davidleoni.github.io/ggad/parte1a.slides.html) | [Scarica notebook](https://davidleoni.github.io/ggad/parte1a.ipynb) | [Visualizza notebook su Github](parte1a.ipynb) | 
 
 - Presentazione
 - Strumenti e script
 - Basi Python (variabili, tipi booleani, numerici)
 
-- [Scarica notebook](https://davidleoni.github.io/ggad/parte1a.ipynb)
-- [Visualizza notebook su Github](parte1a.ipynb)
-- [Slides](https://davidleoni.github.io/ggad/parte1a.slides.html)
+ 
+## 1.b contenitori
 
-Parte 1b:
+| [Slides](https://davidleoni.github.io/ggad/parte1b.slides.html) | [Scarica notebook](https://davidleoni.github.io/ggad/parte1b.ipynb) | [Visualizza notebook su Github](parte1b.ipynb) | 
+
 
 - Stringhe, Liste
 - Tuple, Insiemi, Dizionari
 
-| [Slides](https://davidleoni.github.io/ggad/parte1b.slides.html) | [Scarica notebook](https://davidleoni.github.io/ggad/parte1b.ipynb) | [Visualizza notebook su Github](parte1b.ipynb) | 
 
-Parte 1c:
+##  1.c cicli
+
+| [Slides](https://davidleoni.github.io/ggad/parte1c.slides.html) | [Scarica notebook](https://davidleoni.github.io/ggad/parte1c.ipynb) | [Visualizza notebook su Github](parte1c.ipynb)  |
+
 
 - Controllo di flusso (if, for) 
 - Controllo di flusso (while, sequenze) 
 
-- [Scarica notebook](https://davidleoni.github.io/ggad/parte1c.ipynb)
-- [Visualizza notebook su Github](parte1c.ipynb)
-- [Slides](https://davidleoni.github.io/ggad/parte1c.slides.html)
 
