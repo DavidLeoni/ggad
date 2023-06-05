@@ -1,4 +1,10 @@
-# IN PROGRESS
+# Principi di statistica e tools digitali
+
+### GG Analisi dei dati @ Fidia
+
+Giugno 2023
+
+**Speaker**: David Leoni info@davidleoni.it
 
 ## 1.a intro
 
