@@ -99,7 +99,14 @@ with open(f'{raw_slides_html}.slides.html', encoding='utf8') as fr:
 <script type="text/javascript" src="risorse/reveal/dist/reveal.js"></script>
 <script type="text/javascript" src="risorse/reveal/plugin/notes/notes.js"></script>"""
 
+    jupman = """
+    <link rel="stylesheet" href="_static/css/jupman.css">
+    <script type="text/javascript" src="_static/js/pytutor-embed.bundle.min.js"></script>    
+    <script type="text/javascript" src="_static/js/jupman.js"></script>
+    """
+
     #ps = ps.replace('</head>',  manual_reveal + '\n</head>')
+    ps = ps.replace('</head>',  jupman + '\n</head>')
     #ps = ps.replace('require(',  'console.log("DAV:About to run require..."); require(')
     #ps = ps.replace('</body>', '')
     #ps = ps.replace('</html>',  '<div>SGURIMPO</div></body></html>')
