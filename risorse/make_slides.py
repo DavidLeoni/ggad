@@ -54,13 +54,19 @@ import subprocess
 import tempfile
 import os
 
+import shutil
+
 tempdir = tempfile.gettempdir() 
+
+notebook_sol = f'{prefix}-sol.ipynb'
+notebook = f'{prefix}.ipynb'
 
 raw_slides_html = os.path.join(tempdir, f'{prefix}-sol')
 
 #NOTA: ho fissato la versione di reveal perchè altrimenti mi dava pagina bianca
-cmd = ['jupyter', 'nbconvert', '--to', 'slides', f'{prefix}-sol.ipynb', '--output', raw_slides_html]
+cmd = ['jupyter', 'nbconvert', '--to', 'slides', notebook_sol, '--output', raw_slides_html]
         #"--reveal-prefix", "./risorse/reveal"] #"https://unpkg.com/reveal.js@4.0.2"]
+
 print(' '.join(cmd))
 res = subprocess.check_output(cmd)
 
@@ -118,3 +124,18 @@ with open(f'{raw_slides_html}.slides.html', encoding='utf8') as fr:
     with open(dest, 'w', encoding='utf8') as fw:
         fw.write(ps)
         print("Done writing", dest)
+
+
+# some paranoid check
+print('bn', os.path.basename(notebook))
+print('dn', os.path.dirname(notebook))
+if notebook.startswith('parte'):
+    if os.path.isfile(notebook_sol):
+        if notebook.split('.ipynb')[0] + '-sol.ipynb' == notebook_sol:
+            if os.path.dirname(notebook) == '':
+                if os.path.isfile(notebook):
+                    print('d')
+                    print(f"OVERWRITING {notebook}    (temporary behoaviour, should be done by jupman)")
+                shutil.copyfile(notebook_sol, notebook)
+
+print("DONE.")
