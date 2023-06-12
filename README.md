@@ -60,3 +60,21 @@ Giugno 2023
 
 
 
+##  3.a analitiche con pandas
+
+* [SoftPython - pandas 1 intro](https://it.softpython.org/pandas/pandas1-sol.html)
+* [SoftPython - pandas 2 esercizi](https://it.softpython.org/pandas/pandas2-sol.htm)
+* [SoftPython - pandas 3 challenge](https://it.softpython.org/pandas/pandas3-chal.html)
+
+
+##  3.b statistiche con pandas
+
+| [Slides](https://davidleoni.github.io/ggad/parte3b.slides.html) | [Scarica notebook](https://davidleoni.github.io/ggad/parte3b.ipynb) | [Visualizza notebook su Github](parte3b.ipynb)  |
+
+- istogrammi
+- moda
+- media
+- varianza
+- mediana
+- quartili
+
