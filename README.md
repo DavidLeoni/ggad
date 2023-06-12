@@ -71,10 +71,4 @@ Giugno 2023
 
 | [Slides](https://davidleoni.github.io/ggad/parte3b.slides.html) | [Scarica notebook](https://davidleoni.github.io/ggad/parte3b.ipynb) | [Visualizza notebook su Github](parte3b.ipynb)  |
 
-- istogrammi
-- moda
-- media
-- varianza
-- mediana
-- quartili
 
