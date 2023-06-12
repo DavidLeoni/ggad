@@ -63,7 +63,7 @@ Giugno 2023
 ##  3.a analitiche con pandas
 
 * [SoftPython - pandas 1 intro](https://it.softpython.org/pandas/pandas1-sol.html)
-* [SoftPython - pandas 2 esercizi](https://it.softpython.org/pandas/pandas2-sol.htm)
+* [SoftPython - pandas 2 esercizi](https://it.softpython.org/pandas/pandas2-sol.html)
 * [SoftPython - pandas 3 challenge](https://it.softpython.org/pandas/pandas3-chal.html)
 
 
